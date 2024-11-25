@@ -35,3 +35,4 @@ awsconfiguration.json
 amplifyconfiguration.json
 amplify-build-config.json
 .secret-*
+node_modules
