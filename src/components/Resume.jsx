@@ -286,44 +286,44 @@ export default function ModernResume() {
       <div className="min-h-screen bg-gray-50 py-12">
           <div className="max-w-7xl mx-auto px-4">
               {/* Header */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-8 mb-8">
-                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
-                        <div className="space-y-4">
-                            <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Raghav Grover</h1>
-                            <h2 className="text-lg sm:text-xl text-blue-600 font-semibold">Senior Technology Architecture Leader</h2>
-                            <p className="text-gray-600 max-w-2xl">
-                                Visionary technology leader with over 14 years of experience in architecting and implementing innovative solutions in life sciences and pharmaceutical industries. 
-                                Specialized in Generative AI (GenAI), cloud architecture, and digital transformation, with a proven track record of building high-performing teams 
-                                and delivering enterprise-scale solutions that drive significant business value.
-                            </p>
+            <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-8 mb-8">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-6">
+                    <div className="space-y-4">
+                        <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Raghav Grover</h1>
+                        <h2 className="text-lg sm:text-xl text-blue-600 font-semibold">Senior Technology Architecture Leader</h2>
+                        <p className="text-gray-600 max-w-2xl">
+                            Visionary technology leader with over 14 years of experience in architecting and implementing innovative solutions in life sciences and pharmaceutical industries. 
+                            Specialized in Generative AI (GenAI), cloud architecture, and digital transformation, with a proven track record of building high-performing teams 
+                            and delivering enterprise-scale solutions that drive significant business value.
+                        </p>
+                    </div>
+                    <div className="flex flex-col space-y-2">
+                        <div className="flex items-center gap-2">
+                            <Mail size={18} className="text-blue-600" />
+                            <span className="text-sm sm:text-base">raghavgrover13@icloud.com</span>
                         </div>
-                        <div className="flex flex-col space-y-2 sm:items-end">
-                            <div className="flex items-center gap-2 sm:justify-end">
-                                <Mail size={18} className="text-blue-600" />
-                                <span className="text-sm sm:text-base">raghavgrover13@icloud.com</span>
-                            </div>
-                            <div className="flex items-center gap-2 sm:justify-end">
-                                <Phone size={18} className="text-blue-600" />
-                                <span className="text-sm sm:text-base">+1-732-997-5241</span>
-                            </div>
-                            <div className="flex items-center gap-2 sm:justify-end">
-                                <MapPin size={18} className="text-blue-600" />
-                                <span className="text-sm sm:text-base">Calgary, Alberta, Canada</span>
-                            </div>
-                            <div className="flex items-center gap-2 sm:justify-end">
-                                <Linkedin size={18} className="text-blue-600" />
-                                <a 
-                                    href="https://linkedin.com/in/raghav-grover-82906538" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    className="text-sm sm:text-base text-blue-600 hover:text-blue-800 hover:underline"
-                                >
-                                    LinkedIn Profile
-                                </a>
-                            </div>
+                        <div className="flex items-center gap-2">
+                            <Phone size={18} className="text-blue-600" />
+                            <span className="text-sm sm:text-base">+1-732-997-5241</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <MapPin size={18} className="text-blue-600" />
+                            <span className="text-sm sm:text-base">Calgary, Alberta, Canada</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <Linkedin size={18} className="text-blue-600" />
+                            <a 
+                                href="https://linkedin.com/in/raghav-grover-82906538" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-sm sm:text-base text-blue-600 hover:text-blue-800 hover:underline"
+                            >
+                                LinkedIn Profile
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div>
 
               {/* Key Achievements */}
               <div className="mb-8">
