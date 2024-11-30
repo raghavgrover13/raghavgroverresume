@@ -18,6 +18,7 @@ import {
   MapPin, 
   Phone, 
   Brain,
+  Bot,
   Settings, 
   Star,
   Terminal,
@@ -44,16 +45,18 @@ const AchievementCard = ({ icon: Icon, title, metrics }) => (
 );
 
 const TechStack = ({ title, items }) => (
-  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-      <h3 className="font-bold text-gray-800 mb-4">{title}</h3>
-      <div className="flex flex-wrap gap-2">
-          {items.map((item, index) => (
-              <span key={index} className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm">
-                  {item}
-              </span>
-          ))}
-      </div>
-  </div>
+    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+        <h3 className="font-bold text-gray-800 mb-4">
+            {typeof title === 'string' ? title : title}
+        </h3>
+        <div className="flex flex-wrap gap-2">
+            {items.map((item, index) => (
+                <span key={index} className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm">
+                    {item}
+                </span>
+            ))}
+        </div>
+    </div>
 );
 
 const ExperienceCard = ({ role }) => (
@@ -87,7 +90,7 @@ const ExperienceCard = ({ role }) => (
 export default function ModernResume() {
   const keyAchievements = [
       {
-          icon: Cloud,
+          icon: Bot,
           title: "Generative AI (GenAI) Architecture Impact",
           metrics: [
               "Architected enterprise-wide GenAI SDLC Assist solution on AWS",
@@ -337,7 +340,12 @@ export default function ModernResume() {
                   <h2 className="text-2xl font-bold text-gray-800 mb-6">Technical Expertise</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <TechStack
-                          title="Generative AI(GenAI)"
+                          title={
+                            <div className="flex items-center gap-2">
+                                <Bot className="text-blue-600" size={20} />
+                                <span>Generative AI(GenAI)</span>
+                            </div>
+                        }
                           items={[
                               "Large Language Models (LLMs: Claude, GPT Models etc.)",
                               "Prompt Engineering",
@@ -346,7 +354,12 @@ export default function ModernResume() {
                           ]}
                       />
                       <TechStack
-                          title="Cloud & Architecture"
+                          title={
+                            <div className="flex items-center gap-2">
+                                <Cloud className="text-blue-600" size={20} />
+                                <span>Cloud & Architecture</span>
+                            </div>
+                        }
                           items={[
                               "AWS(Lambda, ECS, S3, EC2)",
                               "Google Cloud Platform",
@@ -356,7 +369,12 @@ export default function ModernResume() {
                           ]}
                       />
                       <TechStack
-                          title="Development"
+                          title={
+                            <div className="flex items-center gap-2">
+                                <Code className="text-blue-600" size={20} />
+                                <span>Development</span>
+                            </div>
+                        }
                           items={[
                               "Languages: Python, Java, PL/SQL",
                               "Frameworks: FastAPI, Flask, Spring Boot",
