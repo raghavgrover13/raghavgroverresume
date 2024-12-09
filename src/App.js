@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import Resume from './components/Resume';
 
 export default function App() {
-  const DOMAIN = "https://raghav-grover-resume.com";
+  const DOMAIN = "https://raghavgrover.net";
 
   return (
     <>
@@ -17,18 +17,18 @@ export default function App() {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://raghav-grover-resume.com" />
+        <meta property="og:url" content="https://raghavgrover.net" />
         <meta property="og:title" content="Raghav Grover - Senior Technology Architecture Leader" />
         <meta property="og:description" content="Visionary technology leader specializing in GenAI, cloud architecture, and digital transformation. 14+ years experience in architecting enterprise solutions." />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://raghav-grover-resume.com" />
+        <meta property="twitter:url" content="https://raghavgrover.net" />
         <meta property="twitter:title" content="Raghav Grover - Senior Technology Architecture Leader" />
         <meta property="twitter:description" content="Visionary technology leader specializing in GenAI, cloud architecture, and digital transformation. Expert in enterprise solutions." />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://raghav-grover-resume.com" />
+        <link rel="canonical" href="https://raghavgrover.net" />
       </Helmet>
       <div className="bg-gray-100 min-h-screen">
         <Resume />
