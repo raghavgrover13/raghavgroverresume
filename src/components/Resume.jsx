@@ -300,11 +300,21 @@ export default function ModernResume() {
                     <div className="flex flex-col space-y-2">
                         <div className="flex items-center gap-2">
                             <Mail size={18} className="text-blue-600" />
-                            <span className="text-sm sm:text-base">raghavgrover13@icloud.com</span>
+                            <a 
+                            href="mailto:raghavgrover13@icloud.com"
+                            className="text-sm sm:text-base hover:text-blue-600 hover:underline"
+                                            >
+                            raghavgrover13@icloud.com
+                            </a>
                         </div>
                         <div className="flex items-center gap-2">
                             <Phone size={18} className="text-blue-600" />
-                            <span className="text-sm sm:text-base">+1-732-997-5241</span>
+                            <a 
+                                href="tel:+17329975241"
+                                className="text-sm sm:text-base hover:text-blue-600 hover:underline"
+                            >
+                                +1-732-997-5241
+                            </a>
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin size={18} className="text-blue-600" />
