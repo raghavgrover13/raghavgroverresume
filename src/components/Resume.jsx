@@ -60,7 +60,7 @@ const TechStack = ({ title, items }) => (
 );
 
 const ExperienceCard = ({ role }) => (
-  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-6">
+    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow mb-6">
       <div className="flex justify-between items-baseline mb-4">
           <div>
               <h3 className="text-xl font-bold text-gray-800">{role.title}</h3>
@@ -406,7 +406,7 @@ export default function ModernResume() {
 
               {/* Education & Certifications */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow mb-6">
                       <h3 className="font-bold text-gray-800 mb-4">Education</h3>
                       <div className="space-y-2">
                           <p className="text-gray-700">Bachelor of Technology (2006 - 2010)</p>
@@ -414,7 +414,7 @@ export default function ModernResume() {
                           <p className="text-gray-600">Jaypee University of Information Technology</p>
                       </div>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow mb-6">
                       <h3 className="font-bold text-gray-800 mb-4">Professional Certifications</h3>
                       <div className="space-y-2">
                           <p className="text-gray-700">Accenture Certified Technology Architect Associate</p>
