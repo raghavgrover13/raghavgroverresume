@@ -28,7 +28,7 @@ import {
 import { useState } from 'react';
 
 const AchievementCard = ({ icon: Icon, title, metrics }) => (
-  <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-lg hover:border-blue-100 transition-all duration-300 transform hover:-translate-y-1">
       <div className="flex items-center gap-3 mb-4">
           <Icon className="text-blue-600" size={24} />
           <h3 className="font-bold text-gray-800">{title}</h3>
@@ -45,7 +45,7 @@ const AchievementCard = ({ icon: Icon, title, metrics }) => (
 );
 
 const TechStack = ({ title, items }) => (
-    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-lg hover:border-blue-100 transition-all duration-300 transform hover:-translate-y-1">
         <h3 className="font-bold text-gray-800 mb-4">
             {typeof title === 'string' ? title : title}
         </h3>
@@ -286,7 +286,7 @@ export default function ModernResume() {
       <div className="min-h-screen bg-gray-50 py-12">
           <div className="max-w-7xl mx-auto px-4">
               {/* Header */}
-            <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-8 mb-8">
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-8 mb-8 hover:shadow-md transition-shadow">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-6">
                     <div className="space-y-4">
                         <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Raghav Grover</h1>
