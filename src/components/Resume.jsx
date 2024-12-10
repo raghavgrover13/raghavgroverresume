@@ -358,8 +358,8 @@ export default function ModernResume() {
                         }
                           items={[
                               "Large Language Models (LLMs: Claude, GPT Models etc.)",
-                              "Prompt Engineering",
-                              "Retrieval Augmented Generation (RAG), C-RAG Patterns",
+                              "Advanced Prompt Engineering",
+                              "Retrieval Augmented Generation (RAG), CRAG Patterns",
                               "Vector and Graph Databases"
                           ]}
                       />
