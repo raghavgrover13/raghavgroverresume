@@ -93,11 +93,10 @@ export default function ModernResume() {
           icon: Bot,
           title: "Generative AI (GenAI) Architecture Impact",
           metrics: [
-              "Architected enterprise-wide GenAI SDLC Assist solution on AWS",
-              "Contributed to $100M+ in sales through RFPs and enterprise GenAI solutions",
-              "$800K USD cost savings through AI implementation in 10 months",
-              "12,000+ hours productivity gain in 10 months",
-              "1.5-3 months faster project delivery",
+              "Architected and developed enterprise-wide GenAI SDLC Assist solution on AWS",
+              "Generated revenue exceeding $100M+ through strategic GenAI solution development",
+              "Delivered $800K savings and 18,000+ efficiency hours via GenAI SDLC",
+              "Reduced project timelines by up to 3 months using GenAI SDLC",
               
           ]
       },
@@ -117,10 +116,10 @@ export default function ModernResume() {
           icon: Activity,
           title: "Technical Innovation",
           metrics: [
-              "Multi-LLM integration architecture",
-              "End-to-end system modernization",
-              "Cloud-native solutions design",
-              "Advanced AI implementation with industry-leading frameworks",
+              "Developed Multi-LLM integration architecture",
+              "Led and implemented End-to-end system modernization",
+              "Led and implemented various Cloud-native solutions design",
+              "Led Advanced GenAI implementations with industry-leading frameworks for various business use cases",
               
           ]
       }
@@ -136,9 +135,9 @@ export default function ModernResume() {
               {
                   category: "Technical Architecture & Innovation",
                   points: [
-                      "Architected enterprise-wide Generative AI (GenAI) Software Development Life Cycle (SDLC) Assist platform on AWS, integrating Claude, GPT-4, and Llama models",
+                      "Architected and implemented enterprise-wide Generative AI (GenAI) Software Development Life Cycle (SDLC) Assist platform on AWS, integrating Claude, OpenAI, and Llama models",
                       "Implemented sophisticated Retrieval Augmented Generation (RAG) patterns with vector databases such as Weaviate for enhanced knowledge retrieval with graph concepts",
-                      "Designed serverless architecture ensuring scalability and cost optimization",
+                      "Designed and implmented serverless architecture ensuring scalability and cost optimization",
                       "Established architectural patterns for AI integration across enterprise systems",
                       "Created and delivered comprehensive GenAI training program reaching 5000+ professionals across 30+ accounts"
                   ]
@@ -157,11 +156,11 @@ export default function ModernResume() {
               {
                   category: "Business Impact & Innovation",
                   points: [
-                      "Delivered $800K USD in cost savings through AI implementation in one client account in 10 months",
-                      "Achieved 12,000+ hours of productivity improvement",
-                      "Reduced project timelines by 1.5-3 months",
-                      "Improved code quality and reduced technical debt by 40%",
-                      "Led GenAI solutions architecture for RFPs and sales initiatives, driving $100M+ in new business across 30+ enterprise accounts"
+                      "Engineered an enterprise GenAI SDLC platform delivering $800K cost optimization and 18,000+ operational hours savings within 10 months for a major enterprise client",
+                      "Integrated GenAI-driven development workflows in the platform, accelerating project delivery cycles by 1.5-3 months across multiple teams",
+                      "Developed an GenAI-powered support agent within the platform, enabling 40% faster issue resolution for operational teams",
+                      "Implemented automated code quality analysis and GenAI-assisted refactoring through the platform, reducing technical debt by 40%",
+                      "Spearheaded enterprise GenAI solutions driving $100M+ revenue across 30+ key accounts"
                   ]
               }
           ]
@@ -175,9 +174,9 @@ export default function ModernResume() {
               {
                   category: "Innovation & Technical Leadership",
                   points: [
-                      "Led Medidata convergence project, implementing complex system integrations",
+                      "Led Medidata convergence project, implementing complex system integrations(3M+ project value)",
                       "Architected Clinical Data Warehouse with advanced analytics capabilities",
-                      "Led Oracle Thesaurus Management System used for medical coding and implementing complex system integrations",
+                      "Led Oracle Thesaurus Management System project(1M+ project value) used for medical coding and implementing complex system integrations",
                       "Led architecture modernization initiatives resulting in 30% improvement in system performance",
                       "Established dedicated team for clinical data management systems(CDMS), standardizing best practices across teams",
                       "Established DevOps practices, On-Prem to AWS migrations and implementation of CI/CD pipelines"
@@ -213,7 +212,6 @@ export default function ModernResume() {
                       "Pioneered AWS cloud migrations reducing operational costs by 25%",
                       "Led cross-functional teams across 3 global locations ensuring 24x7 delivery support",
                       "Led the delivery of 50+ small to medium sized high-impact projects in pharmaceutical R&D",
-                      "Designed and implemented cloud-native solutions"
                   ]
               }
           ]
