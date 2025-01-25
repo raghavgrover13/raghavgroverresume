@@ -3,7 +3,7 @@ import Resume from './components/Resume';
 
 export default function App() {
   const DOMAIN = "https://www.raghavgrover.net";
-
+  
   return (
     <>
       <Helmet>
@@ -12,23 +12,23 @@ export default function App() {
         <meta charSet="utf-8" />
         
         {/* Primary Meta Tags */}
-        <meta name="description" content="Technology leader with 14+ years experience in life sciences and pharmaceutical industries. Specialized in Generative AI (GenAI), cloud architecture, and digital transformation." />
+        <meta name="description" content="Raghav Grover - Technology leader with 14+ years experience in life sciences and pharmaceutical industries. Specialized in Generative AI (GenAI), cloud architecture, and digital transformation." />
         <meta name="keywords" content="Raghav Grover, Technology Architecture, GenAI, Cloud Architecture, Digital Transformation, AWS, Enterprise Solutions, Technology Leadership" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.raghavgrover.net" />
+        <meta property="og:url" content={DOMAIN} />
         <meta property="og:title" content="Raghav Grover - Senior Technology Architecture Leader" />
-        <meta property="og:description" content="Visionary technology leader specializing in GenAI, cloud architecture, and digital transformation. 14+ years experience in architecting enterprise solutions." />
-
+        <meta property="og:description" content="Raghav Grover - Technology leader with 14+ years experience in life sciences and pharmaceutical industries. Specialized in Generative AI (GenAI), cloud architecture, and digital transformation." />
+        
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.raghavgrover.net" />
+        <meta property="twitter:url" content={DOMAIN} />
         <meta property="twitter:title" content="Raghav Grover - Senior Technology Architecture Leader" />
-        <meta property="twitter:description" content="Visionary technology leader specializing in GenAI, cloud architecture, and digital transformation. Expert in enterprise solutions." />
-
+        <meta property="twitter:description" content="Raghav Grover - Technology leader with 14+ years experience in life sciences and pharmaceutical industries. Specialized in Generative AI (GenAI), cloud architecture, and digital transformation." />
+        
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.raghavgrover.net" />
+        <link rel="canonical" href={DOMAIN} />
       </Helmet>
       <div className="bg-gray-100 min-h-screen">
         <Resume />

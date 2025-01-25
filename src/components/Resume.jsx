@@ -156,7 +156,7 @@ export default function ModernResume() {
               {
                   category: "Business Impact & Innovation",
                   points: [
-                      "Engineered an enterprise GenAI SDLC platform delivering $800K cost optimization and 18,000+ operational hours savings within 10 months for a major enterprise client",
+                      "Engineered an enterprise GenAI SDLC platform delivering $800K cost optimization and 18,000+ hours of savings within 10 months for a major enterprise client",
                       "Integrated GenAI-driven development workflows in the platform, accelerating project delivery cycles by 1.5-3 months across multiple teams",
                       "Developed an GenAI-powered support agent within the platform, enabling 40% faster issue resolution for operational teams",
                       "Implemented automated code quality analysis and GenAI-assisted refactoring through the platform, reducing technical debt by 40%",
