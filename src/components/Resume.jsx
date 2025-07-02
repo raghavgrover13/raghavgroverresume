@@ -391,7 +391,7 @@ export default function EnhancedResume() {
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8">
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  <h1 className="text-4xl lg:text-5xl font-bold text-blue-600 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight pb-1">
                     Raghav Grover
                   </h1>
                   <BadgeCheck className="text-blue-600" size={32} />
