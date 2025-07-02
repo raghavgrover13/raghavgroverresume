@@ -146,8 +146,9 @@ export default function EnhancedResume() {
       metrics: [
         "Architected and developed enterprise-wide GenAI SDLC Assist solution on AWS",
         "Generated revenue exceeding $100M+ through strategic GenAI solution development",
-        "Delivered $2M+ savings and 42,000+ efficiency hours via GenAI SDLC",
-        "Reduced project timelines by up to 3 months using GenAI SDLC"
+        "Delivered $2M+ savings and 42,000+ efficiency hours and reduced project timelines in general by a minimum of ~3 months through GenAI SDLC Assist platform",
+        "Implemented a production-grade Agentic AI system for enterprise helpdesk operations",
+        "Implemented a production-grade Agentic AI system for getting quick insights from complex clinical study data, reducing time-to-insights from weeks to minutes"
       ]
     },
     {
