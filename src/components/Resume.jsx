@@ -454,7 +454,7 @@ export default function EnhancedResume() {
               </h3>
               <p className="text-3xl font-bold mb-2">$2M+ Cost Savings | 42,000+ Hours Saved</p>
               <p className="text-lg opacity-90">
-                Engineered enterprise GenAI platform delivering transformational efficiency gains in just 10 months
+                Engineered enterprise GenAI platform delivering transformational efficiency gains in SDLC
               </p>
             </div>
           </div>
