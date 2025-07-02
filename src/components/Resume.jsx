@@ -556,7 +556,7 @@ export default function EnhancedResume() {
               title="Generative AI & Machine Learning"
               items={[
                 "Large Language Models (Claude, GPT-4, Llama)",
-                "Agentic AI Frameworks (LangChain, AutoGen, CrewAI)",
+                "Open-Source Agentic AI Frameworks (AWS Agent Squad, AWS Bedrock, AutoGen, Letta , Agno, n8n etc.)",
                 "Advanced Prompt Engineering",
                 "RAG & CRAG Patterns",
                 "Vector Databases (Weaviate, Pinecone)",
