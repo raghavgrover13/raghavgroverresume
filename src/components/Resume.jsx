@@ -158,7 +158,7 @@ export default function EnhancedResume() {
         "Lead 50+ member multi-shore development team across 3 continents",
         "Developed and delivered enterprise GenAI training program reaching 5000+ professionals across 30+ accounts",
         "Managed $5M+ annual technology budget with consistent ROI delivery",
-                    "Built and scaled engineering teams to optimal size while maintaining high performance",
+        "Built and scaled engineering teams to optimal size while maintaining high performance",
         "Implemented balanced team structure improving delivery efficiency by 40%",
         "Oversee project pricing and CCI to ensure consistent profitability"
       ]
@@ -167,10 +167,12 @@ export default function EnhancedResume() {
       icon: Zap,
       title: "Technical Innovation & Transformation",
       metrics: [
+        "Led comprehensive AI transformation strategy and technical solution presentation in client orals, securing $7M+ enterprise deal through innovative GenAI architecture proposal",
         "Developed Multi-LLM integration architecture serving 1000+ concurrent users",
         "Led end-to-end system modernization reducing operational costs by 35%",
         "Implemented cloud-native solutions achieving 99.9% uptime",
-        "Pioneered advanced GenAI implementations across 10+ business verticals"
+        "Pioneered advanced GenAI implementations across 10+ business verticals",
+        "Successfully engaged with MDs and SMDs to drive strategic technology adoption across pharmaceutical enterprise accounts"
       ]
     }
   ];
@@ -186,7 +188,7 @@ export default function EnhancedResume() {
           category: "Strategic Leadership & Enterprise AI Transformation",
           points: [
             "Leading enterprise-wide AI transformation initiatives as Senior Manager, driving next-generation technology adoption across multiple Fortune 100 pharmaceutical accounts",
-            "Establishing AI Centers of Excellence and governance frameworks for responsible AI implementation, directly reporting to C-suite executives",
+            "Establishing AI Centers of Excellence and governance frameworks for responsible AI implementation, collaborating with senior executive leadership and SMDs",
             "Designed and deployed Agentic AI systems transforming enterprise helpdesk operations, achieving 70% reduction in resolution time and 90% user satisfaction",
             "Architected real-time analytics platform leveraging Agentic AI for clinical study data analysis, reducing time-to-insights from weeks to hours",
             "Managing portfolio of strategic AI initiatives valued at $10M+ annually with focus on project pricing and profitability",
@@ -206,9 +208,10 @@ export default function EnhancedResume() {
         {
           category: "Business Impact & Strategic Initiatives",
           points: [
+            "Led comprehensive AI transformation strategy presentation in high-stakes client orals, securing $7M+ enterprise engagement through innovative technical solutions and strategic stakeholder alignment",
             "Leading project pricing strategies and CCI optimization for multi-million dollar AI transformation engagements",
             "Ensuring portfolio profitability while delivering innovative AI solutions to pharmaceutical clients",
-            "Presenting AI strategy roadmaps to Fortune 500 board members and executive committees",
+            "Successfully engaging with Managing Directors (MDs) and Senior Managing Directors (SMDs) to drive strategic AI adoption and transformation initiatives",
             "Building strategic partnerships with hyperscalers (AWS, Azure, GCP) for joint go-to-market AI solutions",
             "Establishing Accenture as thought leader in pharmaceutical AI space through conference keynotes and white papers"
           ]
@@ -405,7 +408,7 @@ export default function EnhancedResume() {
                   As a Technology Architecture Senior Manager at Accenture, I lead strategic AI initiatives across Fortune 100 
                   pharmaceutical accounts, managing multi-million dollar portfolios and 20-30 member teams. Expert in architecting enterprise-scale 
                   Generative AI and Agentic AI solutions that deliver measurable business impact, including $100M+ in generated revenue, 
-                  $2M+ in cost savings, and 42,000+ efficiency hours. Proven track record of C-suite engagement and transformational leadership.
+                  $2M+ in cost savings, and 42,000+ efficiency hours. Proven track record of senior leadership collaboration and transformational leadership.
                 </p>
               </div>
               
@@ -526,7 +529,7 @@ export default function EnhancedResume() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <ChevronRight size={16} className="text-blue-500" />
-                  <span className="text-gray-700">C-Suite Advisory & Engagement</span>
+                  <span className="text-gray-700">Senior Executive Leadership Collaboration</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <ChevronRight size={16} className="text-blue-500" />
@@ -607,7 +610,7 @@ export default function EnhancedResume() {
                 "Portfolio Management",
                 "Project Pricing & CCI",
                 "Profitability Analysis",
-                "C-Suite Advisory",
+                "Senior Executive Advisory",
                 "Strategic Partnerships",
                 "Digital Transformation"
               ]}
