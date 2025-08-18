@@ -212,8 +212,7 @@ export default function EnhancedResume() {
             "Leading project pricing strategies and CCI optimization for multi-million dollar AI transformation engagements",
             "Ensuring portfolio profitability while delivering innovative AI solutions to pharmaceutical clients",
             "Successfully engaging with Managing Directors (MDs) and Senior Managing Directors (SMDs) to drive strategic AI adoption and transformation initiatives",
-            "Building strategic partnerships with hyperscalers (AWS, Azure, GCP) for joint go-to-market AI solutions",
-            "Establishing Accenture as thought leader in pharmaceutical AI space through conference keynotes and white papers"
+            "Establishing Accenture as thought leader in pharmaceutical AI space by implementing innovative AI solutions "
           ]
         }
       ]
@@ -671,3 +670,4 @@ export default function EnhancedResume() {
     </div>
   );
 }
+
