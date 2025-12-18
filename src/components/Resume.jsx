@@ -179,10 +179,10 @@ import {
   
     const experience = [
       {
-        title: "Technology Architecture Senior Manager",
+        title: "Software Engineering Advisory Sr. Manager",
         company: "Accenture",
         period: "Jun 2025 - Present",
-        location: "Calgary, Alberta, Canada",
+        location: "New York City, New York, USA",
         highlights: [
           {
             category: "Strategic Leadership & P&L Oversight",
@@ -405,11 +405,11 @@ import {
                   </div>
                   <h2 className="text-xl lg:text-2xl text-gray-700 font-semibold flex items-center gap-2">
                     <Shield className="text-blue-600" size={24} />
-                    Technology Architecture Senior Manager | AI Strategy Leader
+                    Software Engineering Advisory Sr. Manager | AI Strategy Leader
                   </h2>
                   <p className="text-gray-600 max-w-3xl leading-relaxed">
                     Senior technology executive with 15+ years driving enterprise transformation and innovation in life sciences.
-                    As Technology Architecture Senior Manager at Accenture, I direct strategic AI initiatives across Fortune 100
+                    As Software Engineering Advisory Sr. Manager at Accenture, I direct strategic AI initiatives across Fortune 100
                     pharmaceutical accounts with P&L oversight for multi-million dollar portfolios, managing global teams of 20+ professionals including managers, architects, and technical leads. Expert in architecting enterprise-scale
                     Generative AI and Agentic AI solutions that deliver measurable business impact, including $100M+ in generated revenue,
                     $2M+ in cost savings, and 42,000+ efficiency hours. Proven track record in strategic decision-making, organizational governance, and driving enterprise-wide technology transformation.
@@ -432,7 +432,7 @@ import {
                   </div>
                   <div className="flex items-center gap-3 group">
                     <MapPin size={18} className="text-blue-600 group-hover:scale-110 transition-transform" />
-                    <span>Calgary, Alberta, Canada</span>
+                    <span>New York City, New York, USA</span>
                   </div>
                   <div className="flex items-center gap-3 group">
                     <Linkedin size={18} className="text-blue-600 group-hover:scale-110 transition-transform" />
@@ -668,8 +668,8 @@ import {
                 <div className="flex items-start gap-3">
                   <BadgeCheck className="text-green-500 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold text-gray-700">Oracle Cloud Infrastructure Foundations 2021</p>
-                    <p className="text-sm text-gray-500">Cloud Platform Expertise</p>
+                    <p className="font-semibold text-gray-700">Accenture Certified Senior RDE (Reinvention Deployed Engineer)</p>
+                    <p className="text-sm text-gray-500">Enterprise Transformation & Innovation</p>
                   </div>
                 </div>
               </div>
